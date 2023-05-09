@@ -32,7 +32,7 @@
     <section>
         <h3>Unicorn info: </h3>
         <ul>
-            <li>Name: <?= $chosen_unicorn->getName() ?></li>
+            <li>Name: <?= $chosen_unicorn["name"] ?></li>
         </ul>
 
     </section>

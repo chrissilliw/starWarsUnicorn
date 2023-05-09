@@ -94,13 +94,18 @@ $chosen_unicorn = [
     "color" => "-"
 ];
 
+/*************  Behöver hjälp hära!  **************/
+
 $chosen_id = $_GET['id'];
 
 foreach($character_array as $find_character) {
     if($find_character->getId() === $chosen_id) {
         $chosen_unicorn = $find_character;
+
     }
 }
+
+/************************************************* */
 
 foreach($character_array as $character) {
     if( !in_array($character->getColor(), $unicorn_colors)) {
